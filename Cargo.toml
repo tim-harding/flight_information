@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy" }
+# Note: Remove for release
+bevy = { version = "0.6", features = ["dynamic"] }
