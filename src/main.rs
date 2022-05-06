@@ -24,7 +24,7 @@ fn main() {
 }
 
 fn hello_world() {
-    println!("Hello, world!");
+    println!("Hello, stuff!");
 }
 
 fn add_people(mut commands: Commands) {
